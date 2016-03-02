@@ -1,0 +1,23 @@
+public/
+.idea/
+
+# Build
+dist/
+
+# Logs
+logs
+*.log
+
+# idea
+*.idea/
+
+# Dependency directory
+node_modules
+
+dist/
+*.sublime-project
+*.sublime-workspace
+
+# ds store
+*.DS_Store
+

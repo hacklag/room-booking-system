@@ -1,0 +1,21 @@
+.person-list {
+  padding: 20px 20px;
+  border-left: 1px solid #ddd;
+  color: #333;
+  overflow: hidden;
+  .title {
+    float: left;
+    font-size: 18px;
+    color: #843232;
+  }
+  .persons {
+    overflow: hidden;
+    margin: 20px 0;
+    height: 100%;
+  }
+}
+.person-list-menu {
+  text-align: right;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}

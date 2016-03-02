@@ -1,0 +1,24 @@
+.time {
+  float: left;
+  width: 50px;
+}
+
+.time-row {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  height: 28px;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.time-triangle {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}

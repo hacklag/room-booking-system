@@ -1,0 +1,43 @@
+.rooms {
+  overflow-y: scroll;
+  position: relative;
+}
+
+.labels {
+  height: 30px;
+  margin-left: 50px;
+  overflow: hidden;
+}
+.room, .label {
+  float: left;
+  width: 13%;
+}
+.label {
+  padding: 6px 3px;
+}
+
+.room-name {
+
+}
+.room-wrapper {
+  position: relative;
+  overflow-y: scroll;
+
+  .example-item {
+    z-index: 3;
+    position: absolute;
+    left: -1px;
+    width: calc(100% - 4px);
+    min-height: 18px;
+    color: #2e2e2e;
+    background-color: #ffffff;
+  }
+}
+.room-row {
+  border: 1px solid #e7ebef;
+  background-color: #f7f7f7;
+  height: 28px;
+  :hover {
+    background-color: white
+  }
+}

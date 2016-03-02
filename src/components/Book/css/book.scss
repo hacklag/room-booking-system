@@ -1,0 +1,22 @@
+.book {
+  background-color: #fff;
+  color: black;
+  margin-left: 285px;
+  width:100%;
+}
+.book-header {
+  overflow: hidden;
+  padding: 10px;
+
+  .selected-day {
+    float: left;
+    padding: 7px;
+  }
+}
+.rooms-wrapper {
+  position: absolute;
+  overflow: scroll;
+  top: 55px;
+  bottom: 0;
+  width: 100%;
+}

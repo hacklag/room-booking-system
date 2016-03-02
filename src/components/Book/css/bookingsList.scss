@@ -1,0 +1,41 @@
+.bookings {
+  overflow-y: scroll;
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+.bookings-item {
+  margin: 6px 4px;
+  padding: 10px;
+  color: black;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookings-item-photo {
+  float: left;
+  margin-right: 10px;
+}
+.bookings-item-content {
+  width: 100%;
+}
+.trash-icon {
+  color: #D14;
+  opacity: 0.6
+}
+.bookings-item-delete {
+  color: red;
+  cursor: pointer;
+}
+.loader {
+  color: dimgray;
+}
+.dialog-body {
+  color: #000;
+}
+.dialog-body-reservation-name {
+  font-weight: 600;
+  text-decoration: underline;
+}
