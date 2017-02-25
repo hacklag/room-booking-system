@@ -1,6 +1,6 @@
 import Reflux from 'reflux';
 
-import Syncano from '../Utils/syncano';
+import Syncano from '../utils/syncano';
 
 let Actions = Reflux.createActions({
   clickRoomRow: {},

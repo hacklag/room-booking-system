@@ -1,7 +1,7 @@
 import Reflux from 'reflux';
 import Moment from 'moment';
 
-import Syncano from '../Utils/syncano';
+import Syncano from '../utils/syncano';
 
 let Actions = Reflux.createActions({
   changeSelectedDay: {
